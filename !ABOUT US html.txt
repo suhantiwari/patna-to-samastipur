@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us – Patna ↔ Samastipur Travel</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+
+  <!-- Navigation -->
+  <header class="bg-blue-700 text-white p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-xl font-bold">Patna ↔ Samastipur Travel</h1>
+      <nav class="space-x-4">
+        <a href="index.html" class="hover:underline">Home</a>
+        <a href="about.html" class="font-semibold underline">About Us</a>
+        <a href="contact.html" class="hover:underline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- About Us Section -->
+  <section class="py-16 px-4 bg-blue-50">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-4xl font-bold text-blue-800 mb-4">About Us</h2>
+      <p class="text-lg text-gray-700 leading-relaxed">
+        Patna ↔ Samastipur Travel Agency is Bihar’s most trusted local travel provider dedicated to a single route:
+        <strong>Patna to Samastipur and back</strong>. With over 5 years of experience, we offer premium, punctual, and
+        pocket-friendly travel options for all kinds of travelers—whether you’re heading to work, family events, or
+        educational institutions.
+      </p>
+      <p class="mt-6 text-gray-700">
+        We provide:
+      </p>
+      <ul class="mt-4 text-left list-disc list-inside text-gray-700">
+        <li>Door-to-door cab service</li>
+        <li>Air-conditioned and Non-AC vehicles (Sedan, SUV, Tempo)</li>
+        <li>Round-trip and one-way flexible bookings</li>
+        <li>Experienced and courteous drivers</li>
+        <li>Emergency/last-minute bookings</li>
+      </ul>
+      <p class="mt-6 text-gray-700">
+        Your comfort, safety, and satisfaction are our top priorities. Travel with confidence, travel with us.<br />
+        <strong>📞 Contact: <a href="tel:+919211241677" class="text-blue-700 underline">9211241677</a></strong>
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-800 text-white text-center py-6">
+    <p>© 2025 Patna ↔ Samastipur Travel. All rights reserved.</p>
+    <p class="mt-2">📞 <a href="tel:+919211241677" class="underline">9211241677</a></p>
+  </footer>
+
+</body>
+</html>

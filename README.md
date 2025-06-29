@@ -76,12 +76,11 @@
 
     /* --------------------------- Packages Section -------------------------- */
     const packages = [
-      { name: "One‑Way (Sedan)", price: "₹2,199", perks: ["AC Sedan", "Up to 4 guests", "Free Wi‑Fi"] },
-      { name: "Round‑Trip (SUV)", price: "₹4,199", perks: ["AC SUV", "Up to 6 guests", "Waiting time 4 hrs"] },
-      {
+      { name: "One‑Way (Sedan)", price: "₹1,800", perks: ["AC Sedan", "Up to 4 guests"] },
+      { name: "one-way (SUV)", price: "₹2,500", perks: ["AC SUV", "Up to 6 guests"] },
         name: "Premium Tempo (12‑seater)",
-        price: "₹5,999",
-        perks: ["Reclining seats", "Music &amp; Mic", "Mineral water"],
+        price: "₹3,500",
+        perks: ["comfortable seats", "Music &amp; Mic", "Mineral water"],
       },
     ];
 
@@ -187,8 +186,8 @@
     const initialFormState = {
       name: "",
       phone: "",
-      pickup: "Patna",
-      drop: "Samastipur",
+      pickup: "Patna","samastipur"
+      drop: "Samastipur","patna"
       date: "",
     };
 
@@ -271,10 +270,10 @@
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">Get In Touch</h2>
           <p>
-            📞 <a href="tel:+919999999999" className="underline">+91 99999 99999</a>
+            📞 <a href="tel:+919211241677" className="underline">+91 8084606060</a>
           </p>
           <p className="mt-2">
-            📱 <a href="https://wa.me/919999999999" target="_blank" className="underline">WhatsApp Chat</a>
+            📱 <a href="https://wa.me/919211241677" target="_blank" className="underline">WhatsApp Chat</a>
           </p>
           <p className="mt-2">
             ✉️ <a href="mailto:info@patna-samastipur-travel.com" className="underline">info@patna-samastipur-travel.com</a>
